@@ -15,3 +15,13 @@ body::-webkit -scrollbar-thumb{
 
 /* clip-path  = makes a lot of shape */
 
+/* Tricks: Image in Text */
+
+h1 {
+    background-image:- url("path ") 
+    Background-size :- Cover 
+    Background-position:- Center 
+    Background-clip :- text
+    Webkit-background clip :- text
+    Color: transparent 
+}
