@@ -1,0 +1,13 @@
+                                                                  /* Trick's In Web Dev */
+
+/* To Make Scrool Bar Having Different Color  */
+
+body::-webkit - scrollbar { 
+  background color: transparent
+}
+
+body::-webkit -scrollbar-thumb{
+  background color:linear-gradient (red, blue, green)
+}
+
+
