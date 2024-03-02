@@ -25,3 +25,24 @@ h1 {
     Webkit-background clip :- text
     Color: transparent 
 }
+
+
+/* Making Image Color Same As Background Of Div It Is In */
+
+
+.container {
+  background-color: blue; /* Set the background color of the div */
+  width: 200px; /* Set the width of the div */
+  height: 300px; /* Set the height of the div */
+  position: relative; /* Set position to relative so that the image can be absolutely positioned within it */
+}
+
+.container img {
+  position: absolute; /* Position the image absolutely within the div */
+  top: 0; /* Align the image to the top of the div */
+  left: 0; /* Align the image to the left of the div */
+  width: 100%; /* Make the image fill the entire width of the div */
+  height: 100%; /* Make the image fill the entire height of the div */
+  object-fit: cover; /* Ensure the image covers the entire div without distortion */
+  mix-blend-mode: multiply; /* Use multiply blend mode to blend the image with the background color of the div */
+}
