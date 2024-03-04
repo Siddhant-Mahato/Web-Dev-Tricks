@@ -46,3 +46,40 @@ h1 {
   object-fit: cover; /* Ensure the image covers the entire div without distortion */
   mix-blend-mode: multiply; /* Use multiply blend mode to blend the image with the background color of the div */
 }
+
+
+/* Multiple Color In Div */
+
+#box{
+  width: 200px; 
+  height: 300px;
+  background:linear-gradient(to right,red,blue);
+}
+
+/* Img Border As Colr*/
+
+<div id="gola">
+  <img src="paris.jpg" alt="Paris">
+</div>
+
+#gola{
+  width: 30px; 
+  height: 30px;
+  border-radius :50%;
+  background:linear-gradient(red,blue,yellow,pink,aqua);
+  padding:2px;
+}
+#gola img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius :50%;
+}
+
+  
+/*Image Bg Shadow*/
+img{
+    filter:drop-shadow(10px 10px 20px);
+}
+
+
