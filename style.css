@@ -82,4 +82,23 @@ img{
     filter:drop-shadow(10px 10px 20px);
 }
 
+/*About setTimeout and setInterval*/
+
+`setInterval` and `setTimeout` are both functions used for timing in JavaScript, but they have different purposes and behaviors:
+
+1. **setTimeout**:
+   - `setTimeout` is used to execute a function once after a specified delay.
+   - It accepts two arguments: a function to be executed and the time delay in milliseconds.
+   - After the specified delay, the function is executed only once.
+   - It returns a unique identifier (timer ID) that can be used to cancel the execution of the function using `clearTimeout`.
+
+2. **setInterval**:
+   - `setInterval` is used to repeatedly execute a function at specified intervals.
+   - It also accepts two arguments: a function to be executed and the time interval in milliseconds.
+   - The function is executed repeatedly, with each execution separated by the specified time interval.
+   - It returns a unique identifier (timer ID) that can be used to cancel the repetition using `clearInterval`.
+
+In summary, `setTimeout` is used for executing a function once after a delay, while `setInterval` is used for repeatedly executing a function at specified intervals.
+
+  
 
