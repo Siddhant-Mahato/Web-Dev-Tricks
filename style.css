@@ -100,5 +100,16 @@ img{
 
 In summary, `setTimeout` is used for executing a function once after a delay, while `setInterval` is used for repeatedly executing a function at specified intervals.
 
+
+/* Text Upon Border* (10)/
+
+h1{
+  font-size:110px;
+  fonr-weight:900;
+  -webkit-text-stroke:4px black;
+  color:transparent;
+}
+
+/* */
   
 
